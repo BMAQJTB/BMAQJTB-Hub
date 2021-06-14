@@ -1,3 +1,19 @@
+repeat wait() until game:IsLoaded()
+
+wait(1)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "BMAQJTB Hub";
+    Text = "Loading..";
+})
+
+wait(2)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "BMAQJTB Hub";
+    Text = "Loaded!";
+})
+
 local function callback(Text)
  if Text == "Automatic" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/BMAQJTBAuto.txt?token=AUPKY36NXUBAKURREJM7VIDAY6RZY"))()
