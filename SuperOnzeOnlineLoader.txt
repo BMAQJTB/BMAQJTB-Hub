@@ -16,7 +16,7 @@ game.StarterGui:SetCore("SendNotification",{
  Text = "Choose the method :";
  Icon = "";
  Duration = 100000;
- Button1 = "Old";
- Button2 = "New";
+ Button1 = "New";
+ Button2 = "Old";
  Callback = NotificationBindable;
 })
