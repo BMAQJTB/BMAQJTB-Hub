@@ -2,9 +2,9 @@
 
 local function callback(Text)
  if Text == "Old" then
-    loadstring(game:HttpGet("https://pastebin.com/raw/n1JbCFyU", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/Games/main/SuperOnzeOnlineOld.txt?token=AUPKY3ZZJGZTH4BBC4R6USLAY6T6Q"))()
 elseif Text == ("New") then
-    loadstring(game:HttpGet("https://pastebin.com/raw/ZL6uRM9U", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/Games/main/SuperOnzeOnlineNew.txt?token=AUPKY33LUDARIGTLZQQKL6DAY6T4Y"))()
  end
 end
 
