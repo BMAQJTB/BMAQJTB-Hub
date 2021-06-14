@@ -1,6 +1,6 @@
 local function callback(Text)
  if Text == "Automatic" then
-    loadstring(game:HttpGet("https://pastebin.com/raw/4PCTEG5m", true))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/BMAQJTBAuto.txt?token=AUPKY36NXUBAKURREJM7VIDAY6RZY"))()
 elseif Text == ("Manual") then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/BMAQJTBManual.txt?token=AUPKY3ZHT6NKZM7WL6AWIELAY6QGA"))()
  end
