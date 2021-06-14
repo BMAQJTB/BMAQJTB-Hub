@@ -5,11 +5,11 @@ local b = a:NewSection("BMA Scripts")
 b:h1("SuperOnzeOnline")
 
 b:Button("Old Script",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/n1JbCFyU", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/Games/main/SuperOnzeOnlineOld.txt?token=AUPKY3ZZJGZTH4BBC4R6USLAY6T6Q"))()
 end)
 
 b:Button("New Script",function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/ZL6uRM9U", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/Games/main/SuperOnzeOnlineNew.txt?token=AUPKY33LUDARIGTLZQQKL6DAY6T4Y"))()
 end)
 
 local txt  = b:Text("Script made by BanMoiAvantQueJeTeBan#5006")
