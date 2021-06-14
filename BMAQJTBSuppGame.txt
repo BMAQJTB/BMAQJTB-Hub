@@ -1,0 +1,19 @@
+local library = loadstring(game:HttpGet("https://remhub.net/upload/ui.lua"))() -- cal the lib
+local a = library:NewWindow("BMA","HUB") -- Change to anything
+local b = a:NewSection("Supported")
+local c = a:NewSection("Specials")
+ 
+b:h1("SuperOnzeOnline")
+ 
+local txt  = b:Text("Old Script")
+local txt  = b:Text("New Script")
+
+b:h1("Blox Fruits")
+
+local txt  = b:Text("Blox Fruit Script [BETA1]")
+
+b:h1("Project New World")
+
+local txt = b:Text("BMAQJTB | Project New World")
+
+local txt  = b:Text("Script made by BanMoiAvantQueJeTeBan#5006")
