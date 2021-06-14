@@ -1,6 +1,6 @@
 local function callback(Text)
 if Text == "Yes" then
-    https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/BMAQJTBSuppGame.txt?token=AUPKY364CSBLF4L3E4AKDILAY6Q3W 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/BMAQJTBSuppGame.txt?token=AUPKY364CSBLF4L3E4AKDILAY6Q3W"))()
 elseif Text == ("No") then
  end
 end
@@ -9,7 +9,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 
 if game.GameId == 1871012003 then
-	loadstring(game:HttpGet("https://pastebin.com/raw/WYg973Ju", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BMAQJTB/BMAQJTB-Hub/main/SuperOnzeOnlineLoader.txt?token=AUPKY324VUD2VEKIKQTOGOTAY6RUU"))()
 else
 	game.StarterGui:SetCore("SendNotification",  {
  	Title = "BMAQJTB Hub";
