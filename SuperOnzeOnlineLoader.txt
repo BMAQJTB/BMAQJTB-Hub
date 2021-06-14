@@ -1,0 +1,22 @@
+--Script made by BanMoiAvantQueJeTeBan#5006
+
+local function callback(Text)
+ if Text == "Old" then
+    loadstring(game:HttpGet("https://pastebin.com/raw/n1JbCFyU", true))()
+elseif Text == ("New") then
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZL6uRM9U", true))()
+ end
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",{
+ Title = "BMAQJTB Hub | SuperOnzeOnline";
+ Text = "Choose the method :";
+ Icon = "";
+ Duration = 100000;
+ Button1 = "Old";
+ Button2 = "New";
+ Callback = NotificationBindable;
+})
