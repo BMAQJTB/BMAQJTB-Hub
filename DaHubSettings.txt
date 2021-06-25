@@ -1,0 +1,3 @@
+getgenv().ExecutedTime = 0
+getgenv().db = true
+getgenv().Azerty = true
