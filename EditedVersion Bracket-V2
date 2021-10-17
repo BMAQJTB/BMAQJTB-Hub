@@ -660,7 +660,7 @@ function Library:CreateWindow(title, color)
                 local function Slide(input)
                     local pos = UDim2.new(math.clamp((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X, 0, 1), 0, 1, 0)
                     bar.Size = pos
-                    local s = math.floor(((pos.X.Scale * max)) * (max - min) + min)
+                    local s = math.floor(((pos.X.Scale * max) / max) * (1) + min)
                     Value = s
                     value.Text = tostring(s) .. "/" .. max
                     callback(Value)
@@ -729,7 +729,7 @@ function Library:CreateWindow(title, color)
                 title_15.BackgroundTransparency = 1.000
                 title_15.Position = UDim2.new(0, 10, 0, 51)
                 title_15.Size = UDim2.new(0, 234, 0, 42)
-                title_15.ZIndex = 1
+                title_15.ZIndex = 6
                 title_15.Font = Enum.Font.SourceSans
                 title_15.Text = name
                 title_15.TextColor3 = Color3.fromRGB(255, 255, 255)
