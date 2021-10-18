@@ -793,12 +793,12 @@ function Library:CreateWindow(title, color)
 
                 -- Dropdown Code
                 main_2.MouseButton1Click:Connect(function()
-                    title_15.ZIndex = 9
+                    title_15.ZIndex = 100
                     list.Visible = not list.Visible
 
                     for i,v in pairs(container_2:GetChildren()) do
                         if (v ~= title_15 and not v.Name:find("UI")) then
-                            v.ZIndex = 0
+                            v.ZIndex = 100
                         end
                     end
                 end)
